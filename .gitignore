@@ -1,6 +1,11 @@
 *.class
+*.zip
+/lib/*
 
 # Package Files #
 *.jar
 *.war
 *.ear
+
+# Properties Files
+*.properties

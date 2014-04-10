@@ -9,17 +9,18 @@ public class DataReader {
     public static int NUM_STATES = 51;
     public static int NUM_DESTINATIONS = 30;
 
+    enum Type { COUNTRY, STATE, DESTINATION };
+
     private int length = 0;
 
-    public DataReader (String type) {
-        String str = type.toLowerCase();
-        if (str.equals("countries") || str.equals("country")) {
+    public DataReader (Type type) {
+        if (type == Type.COUNTRY) {
             length = NUM_COUNTRIES;
         }
-        else if (str.equals("states") || str.equals("state")) {
+        else if (type == Type.STATE) {
             length = NUM_STATES;
         }
-        else {
+        else if (type == Type.STATE) {
             length = NUM_DESTINATIONS;
         }
     }
@@ -53,8 +54,8 @@ public class DataReader {
     }
 
     public static void main (String[] args) {
-        DataReader data = new DataReader("countries");
-        for (String s : data.read("C:\\Users\\user\\Dropbox\\Project3\\config\\text files\\countries.txt")) {
+        DataReader data = new DataReader(Type.COUNTRY);
+        for (String s : data.read("configFiles\\countries.txt")) {
             System.out.println(s);
         }
     }

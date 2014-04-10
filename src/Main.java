@@ -11,7 +11,8 @@ public class Main {
     public static void main(String[] args){
         TwitterQuery q = new TwitterQuery();
         q.addTerms(WantedTerms, UnwantedTerms);
-        q.query();
+        q.setOneTimeTerms(new String[] {"Saudi Arabia"});
+        System.out.println(q.query());
     }
 
 }

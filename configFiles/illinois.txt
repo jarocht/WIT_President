@@ -1,0 +1,30 @@
+Chicago
+Aurora
+Rockford
+Joliet
+Naperville
+Springfield
+Peoria
+Elgin
+Waukegan
+Cicero
+Champaign
+Bloomington
+Arlington Heights
+Evanston
+Decatur
+Schaumburg
+University of Chicago
+University of Illinois at Urbana-Champaign
+Northwestern University
+University of Illinois at Chicago
+Northern Illinois University
+DePaul University
+Illinois Institute of Technology
+Loyola University Chicago
+Southern Illinois University Carbondale
+DeVry University
+Northeastern Illinois University
+Southern Illinois University Edwardsville
+Western Illinois University
+Eastern Illinois University

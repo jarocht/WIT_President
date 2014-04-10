@@ -3,8 +3,14 @@
  * Date: 4/8/2014 @ Time: 2:25 PM
  */
 
+import sun.util.calendar.BaseCalendar;
 import twitter4j.*;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 
 public class TwitterQuery {
     Twitter twitter;
@@ -66,27 +72,43 @@ public class TwitterQuery {
         String result = "";
         if (OneTimeTerms != null)
             for (String s: OneTimeTerms)
-                result += " -"+s;
+                result += " "+s;
         return result;
+    }
+
+    public String getYesterdaysDate(){
+        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        Calendar c = Calendar.getInstance();
+        c.add(Calendar.DATE, -1);
+        return dateFormat.format(c.getTime());
     }
 
     public int query(){
         String searchQuery = getWantedTerms() + getUnwantedTerms() + getOneTimeTerms();
         System.out.println("Terms: "+ searchQuery);
-        Query query = new Query("Obama");
+
+        Query query = new Query(searchQuery);
+        query.setCount(100);
+        query.setSince(getYesterdaysDate());
+        System.out.println(query.getSince());
+        //query.setUntil(until);
+        System.out.println(query.getUntil());
+        query.setResultType(Query.ResultType.mixed);
+
         QueryResult result = null;
         try {
             result = twitter.search(query);
         } catch (TwitterException e) {
             e.printStackTrace();
         }
+
+        int i = 0;
         for (Status status : result.getTweets()) {
-            System.out.println("@" + status.getUser().getScreenName() + ":" + status.getText());
+            //System.out.println("@" + status.getUser().getScreenName() + ":" + status.getText());
+            i++;
         }
 
-
-
-        return 0;
+        return i;
     }
 
 }

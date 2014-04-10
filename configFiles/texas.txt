@@ -1,0 +1,30 @@
+Houston
+San Antonio
+Dallas
+Austin
+Fort Worth
+El Paso
+Arlington
+Corpus Christi
+Plano
+Laredo
+Lubbock
+Garland
+Irving
+Amarillo
+Grand Prairie
+Brownsville
+Pasadena
+The University of Texas at Austin
+Texas A&M University
+Rice University
+University of Houston
+University of North Texas
+Texas Tech University
+The University of Texas at Dallas
+Southern Methodist University
+Baylor University
+The University of Texas at Arlington
+The University of Texas at El Paso
+Galveston
+South Padre Island

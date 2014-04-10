@@ -1,50 +1,50 @@
-Alabama
-Alaska
-Arizona
-Arkansas
-California
-Colorado
-Connecticut
-Delaware
-Florida
-Georgia
-Hawaii
-Idaho
-Illinois
-Indiana
-Iowa
-Kansas
-Kentucky
-Louisiana
-Maine
-Maryland
-Massachusetts
-Michigan
-Minnesota
-Mississippi
-Missouri
-Montana
-Nebraska
-Nevada
-New Hampshire
-New Jersey
-New Mexico
-New York
-North Carolina
-North Dakota
-Ohio
-Oklahoma
-Oregon
-Pennsylvania
-Rhode Island
-South Carolina
-South Dakota
-Tennessee
-Texas
-Utah
-Vermont
-Virginia
-Washington
-West Virginia
-Wisconsin
-Wyoming
+Alabama OR AL
+Alaska OR AK
+Arizona OR AZ
+Arkansas OR AR
+California OR CA
+Colorado OR CO
+Connecticut OR CT
+Delaware OR DE
+Florida OR FL
+Georgia OR GA
+Hawaii OR HI
+Idaho OR ID
+Illinois OR IL
+Indiana OR IN
+Iowa OR IA
+Kansas OR KS
+Kentucky OR KY
+Louisiana OR LA
+Maine OR ME
+Maryland OR MD
+Massachusetts OR MA
+Michigan OR MI
+Minnesota OR MN
+Mississippi OR MS
+Missouri OR MO
+Montana OR MT
+Nebraska OR NE
+Nevada OR NV
+New Hampshire OR NH
+New Jersey OR NJ
+New Mexico OR NM
+New York OR NY
+North Carolina OR NC
+North Dakota OR ND
+Ohio OR OH
+Oklahoma OR OK
+Oregon OR or
+Pennsylvania OR PA
+Rhode Island OR RI
+South Carolina OR SC
+South Dakota OR SD
+Tennessee OR TN
+Texas OR TX
+Utah OR UT
+Vermont OR VT
+Virginia OR VA
+Washington OR WA
+West Virginia OR WV
+Wisconsin OR WI
+Wyoming OR WY

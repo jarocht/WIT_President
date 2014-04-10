@@ -3,30 +3,12 @@
  */
 
 import java.io.*;
+import java.util.ArrayList;
 
 public class DataReader {
-    public static int NUM_COUNTRIES = 108;
-    public static int NUM_STATES = 51;
-    public static int NUM_DESTINATIONS = 30;
 
-    enum Type { COUNTRY, STATE, DESTINATION };
-
-    private int length = 0;
-
-    public DataReader (Type type) {
-        if (type == Type.COUNTRY) {
-            length = NUM_COUNTRIES;
-        }
-        else if (type == Type.STATE) {
-            length = NUM_STATES;
-        }
-        else if (type == Type.STATE) {
-            length = NUM_DESTINATIONS;
-        }
-    }
-
-    public String[] read(String file) {
-        String[] list = new String[length];
+    public ArrayList<String> read(String file) {
+        ArrayList<String> list = new ArrayList<String>();
         // Open the file
         FileInputStream fstream = null;
         try {
@@ -37,10 +19,10 @@ public class DataReader {
             String strLine;
 
             //Read File Line By Line
-            for (int i = 0; i < length && (strLine = br.readLine()) != null; i++) {
+            while ((strLine = br.readLine()) != null) {
                 // Print the content on the console
                 // System.out.println(strLine);
-                list[i] = strLine;
+                list.add(strLine);
             }
 
             //Close the input stream
@@ -54,7 +36,7 @@ public class DataReader {
     }
 
     public static void main (String[] args) {
-        DataReader data = new DataReader(Type.COUNTRY);
+        DataReader data = new DataReader();
         for (String s : data.read("configFiles\\countries.txt")) {
             System.out.println(s);
         }

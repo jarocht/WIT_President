@@ -9,3 +9,6 @@
 
 # Properties Files
 *.properties
+
+# Added Files
+.idea/*

@@ -83,16 +83,13 @@ public class TwitterQuery {
         return dateFormat.format(c.getTime());
     }
 
-    public int query(){
-        String searchQuery = getWantedTerms() + getUnwantedTerms() + getOneTimeTerms();
+    public int query(String terms){
+        String searchQuery = getWantedTerms() + getUnwantedTerms() + " "+terms;
         System.out.println("Terms: "+ searchQuery);
 
         Query query = new Query(searchQuery);
         query.setCount(100);
         query.setSince(getYesterdaysDate());
-        System.out.println(query.getSince());
-        //query.setUntil(until);
-        System.out.println(query.getUntil());
         query.setResultType(Query.ResultType.mixed);
 
         QueryResult result = null;

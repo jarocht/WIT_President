@@ -1,4 +1,5 @@
 /**
+ * Class to contain a weight associated with a location as a result from a query
  * Created by Michelle Dowling on 4/10/2014.
  */
 public class Pair implements Comparable<Pair>{

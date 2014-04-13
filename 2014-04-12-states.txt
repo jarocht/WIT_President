@@ -1,94 +1,158 @@
-7.54/Russia
-7.47/Cuba
-7.42/Iran
-6.95/Syria
-6.32/Canada
-6.24/Israel
-6.18/China
-6.05/Iraq
-6.04/Egypt
-4.98/India
-4.75/Japan
-4.5/Pakistan
-4.39/Bahrain
-4.32/Australia
-4.05/Philippines
-3.85/Libya
-3.64/Kenya
-3.3/Qatar
-3.3/Italy
-3.26/Saudi Arabia
-3.01/Indonesia
-2.85/Spain
-2.85/Malaysia
-2.45/Nigeria
-1.95/France
-1.75/Germany
-1.6/Mexico
-1.3/Belgium
-1.15/Oman
-1.05/Kuwait
-1.0/Argentina
-1.0/Jordan
-1.0/Luxembourg
-0.8/North Korea
-0.8/Denmark
-0.65/Taiwan
-0.6/Norway
-0.49/Ireland
-0.45/South Africa
-0.4/Netherlands
-0.3/Poland
-0.3/Sudan
-0.25/Colombia
-0.25/Singapore
-0.2/Belarus
-0.2/Brazil
-0.15/Panama
-0.15/Greece
-0.15/Austria
-0.15/Azerbaijan
-0.1/Algeria
-0.1/South Korea
-0.1/Lebanon
-0.1/Peru
-0.1/Macau
-0.1/Morocco
-0.05/Switzerland
-0.05/Gabon
-0.05/Ghana
-0.05/Bangladesh
-0.05/Hong Kong
-0.05/Sierra Leone
-0.05/Puerto Rico
-0.05/Portugal
-0.05/Myanmar
-0.05/Serbia
-0.05/Finland
-0.05/Ecuador
-0.05/Cyprus
-0.05/Burma
-0.05/Ethiopia
-0.0/Lithuania
-0.0/Sri Lanka
-0.0/El Salvador
-0.0/Czech Republic
-0.0/Latvia
+0.6560000000000001/Texas
+0.4736000000000004/Syria
+0.35040000000000016/Malaysia
+0.28900000000000015/Michigan
+0.20459999999999998/New York
+0.09009999999999996/Egypt
+0.060100000000000015/Israel
+0.059800000000000006/Washington
+0.058499999999999996/Ohio
+0.0441/Kenya
+0.044000000000000004/Maryland
+0.037200000000000004/Philippines
+0.033/India
+0.022099999999999998/Illinois
+0.022000000000000002/Missouri
+0.022000000000000002/Nigeria
+0.019000000000000003/Russia
+0.016100000000000003/China
+0.013600000000000001/Mexico
+0.013500000000000002/Turkey
+0.011000000000000001/South Africa
+0.011000000000000001/Spain
+0.011000000000000001/Venezuela
+0.011000000000000001/South Dakota
+0.011000000000000001/Germany
+0.011000000000000001/Hawaii
+0.011000000000000001/Virginia
+0.011000000000000001/Idaho
+0.011000000000000001/Wisconsin
+0.011000000000000001/Japan
+0.011000000000000001/Alaska
+0.011000000000000001/Kuwait
+0.011000000000000001/Libya
+0.011000000000000001/Australia
+0.011000000000000001/Indiana
+0.011000000000000001/Iowa
+0.0011/Iraq
+0.0/Peru
 0.0/Paraguay
-0.0/Costa Rica
-0.0/Sweden
-0.0/Dominican Republic
-0.0/Slovenia
-0.0/Hungary
-0.0/Kazakhstan
-0.0/Bolivia
-0.0/Cameroon
-0.0/Bulgaria
+0.0/Panama
+0.0/Pakistan
+0.0/Oman
+0.0/Norway
+0.0/North Korea
+0.0/Bahrain
 0.0/New Zealand
-0.0/Estonia
-0.0/Guatemala
-0.0/Romania
-0.0/Chile
+0.0/Netherlands
+0.0/Myanmar
+0.0/Morocco
+0.0/Austria
+0.0/Nebraska
+0.0/Macau
+0.0/Luxembourg
+0.0/Lithuania
 0.0/Angola
-0.0/Slovakia
+0.0/Lebanon
+0.0/Latvia
+0.0/Algeria
+0.0/Wyoming
+0.0/Kazakhstan
+0.0/Jordan
+0.0/Mississippi
+0.0/Italy
+0.0/West Virginia
+0.0/Ireland
+0.0/Uruguay
+0.0/Iran
+0.0/Indonesia
+0.0/Vermont
+0.0/Hungary
+0.0/Hong Kong
+0.0/Guatemala
+0.0/Greece
+0.0/Ghana
+0.0/Tennessee
+0.0/Gabon
+0.0/France
+0.0/Finland
+0.0/Ethiopia
+0.0/Estonia
+0.0/El Salvador
+0.0/Maine
+0.0/Ecuador
+0.0/Dominican Republic
+0.0/Denmark
+0.0/Oregon
+0.0/Cyprus
+0.0/Cuba
+0.0/Kentucky
+0.0/Costa Rica
+0.0/Ukraine
+0.0/Arkansas
+0.0/Chile
+0.0/Canada
+0.0/Cameroon
+0.0/Kansas
+0.0/Bulgaria
+0.0/Brazil
+0.0/New Jersey
+0.0/Belgium
+0.0/Belarus
+0.0/Bangladesh
+0.0/Nevada
+0.0/Azerbaijan
+0.0/Vietnam
+0.0/Arizona
+0.0/Argentina
+0.0/Montana
+0.0/Sierra Leone
+0.0/Colorado
+0.0/Taiwan
+0.0/United Kingdom
+0.0/North Dakota
+0.0/Minnesota
+0.0/California
+0.0/Utah
+0.0/Massachusetts
+0.0/Czech Republic
+0.0/Georgia
+0.0/South Carolina
+0.0/Florida
+0.0/Pennsylvania
+0.0/Louisiana
+0.0/Oklahoma
+0.0/Yemen
+0.0/Thailand
+0.0/North Carolina
+0.0/Delaware
+0.0/New Mexico
+0.0/Turkmenistan
+0.0/New Hampshire
+0.0/Connecticut
+0.0/Burma
+0.0/Tunisia
+0.0/Serbia
+0.0/Sweden
+0.0/Slovenia
+0.0/Rhode Island
+0.0/Trinidad and Tobago
+0.0/Alabama
 0.0/Croatia
+0.0/Uzbekistan
+0.0/Switzerland
+0.0/United Arab Emirates
+0.0/Puerto Rico
+0.0/Tanzania
+0.0/Romania
+0.0/Saudi Arabia
+0.0/Slovakia
+0.0/South Korea
+0.0/Sri Lanka
+0.0/Sudan
+0.0/Portugal
+0.0/Qatar
+0.0/Singapore
+0.0/Colombia
+0.0/Poland
+0.0/Bolivia

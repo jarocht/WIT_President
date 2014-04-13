@@ -2,6 +2,9 @@
  * User: Jaroch
  * Date: 4/12/2014 @ Time: 9:14 PM
  */
+import twitter4j.TwitterException;
+import twitter4j.TwitterResponse;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.PriorityQueue;
@@ -47,21 +50,25 @@ public class WIT_President {
         Pair pair;
 
         try {
-            for (String s : reader.read("configFiles\\countries.txt")) {
-                weight = tq.query(s) / 100;
+            for (String s : reader.read("configFiles\\all.txt")) {
+                weight = tq.query(s, tq.getOneWeekAgoDate()) / 100;
                 pair = new Pair(weight, s);
                 mHeap.add(pair);
-                System.out.println("weight: " + pair.weight + " Location: " + pair.location);
+                System.out.println("weight: " + weight + " Location: " + pair.location);
             }
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (TwitterException e) {
+            if (e.exceededRateLimitation())
+                System.out.println("Rate Limit Reached, try again in "+tq.twitter.getRateLimitStatus("search").get("/search/tweets").getSecondsUntilReset()/60+" minutes");
+            else
+                e.printStackTrace();
         }
 
         while (!mHeap.isEmpty()) {
-            System.out.println("weight: " + mHeap.peek().weight + " Location: " + mHeap.peek().location);
+            //System.out.println("weight: " + mHeap.peek().weight + " Location: " + mHeap.peek().location);
             locations.add(mHeap.poll());
         }
-        reader.writePairs(locations, tq.getYesterdaysDate()+"-states.txt");
+        if (!locations.isEmpty())
+            reader.writePairs(locations, tq.getYesterdaysDate()+"-states.txt");
         System.out.println(tq.twitter.getRateLimitStatus("search"));
     }
 

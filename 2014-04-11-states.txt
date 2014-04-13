@@ -1,0 +1,50 @@
+1.15/Alabama OR AL
+1.15/Delaware OR DE
+1.15/Louisiana OR LA
+1.15/Maine OR ME
+1.15/Oregon OR or
+1.15/Idaho OR ID
+1.15/Indiana OR IN
+1.14/Colorado OR CO
+1.1/Nevada OR NV
+1.08/Texas OR TX
+1.08/Mississippi OR MS
+1.04/Washington OR WA
+1.03/Ohio OR OH
+1.03/Florida OR FL
+1.03/Illinois OR IL
+1.03/Montana OR MT
+1.02/Oklahoma OR OK
+1.02/Arkansas OR AR
+1.02/California OR CA
+1.02/Iowa OR IA
+1.01/New York OR NY
+1.01/Georgia OR GA
+1.01/Minnesota OR MN
+1.01/Michigan OR MI
+1.01/Hawaii OR HI
+1.01/Nebraska OR NE
+1.0/Kentucky OR KY
+1.0/Pennsylvania OR PA
+1.0/Wisconsin OR WI
+1.0/Maryland OR MD
+1.0/Arizona OR AZ
+1.0/Missouri OR MO
+1.0/Massachusetts OR MA
+1.0/Virginia OR VA
+1.0/Connecticut OR CT
+1.0/Utah OR UT
+0.99/Alaska OR AK
+0.8/Tennessee OR TN
+0.68/Kansas OR KS
+0.63/New Hampshire OR NH
+0.57/North Carolina OR NC
+0.3/West Virginia OR WV
+0.23/Wyoming OR WY
+0.12/New Mexico OR NM
+0.11/Vermont OR VT
+0.09/New Jersey OR NJ
+0.06/South Carolina OR SC
+0.05/South Dakota OR SD
+0.02/North Dakota OR ND
+0.0/Rhode Island OR RI

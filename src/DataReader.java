@@ -34,6 +34,33 @@ public class DataReader {
         return list;
     }
 
+    public ArrayList<String> getConfig(String file){
+        ArrayList<String> list = new ArrayList<String>();
+        FileInputStream fstream;
+        try {
+            fstream = new FileInputStream(file);
+            BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
+
+            //Read File Line By Line
+            String strLine;
+            int index = -1;
+            br.readLine();
+            while ((strLine = br.readLine()) != null) {
+                index = strLine.indexOf("=");
+                strLine = strLine.substring(index+1);
+                list.add(strLine);
+            }
+
+            //Close the input stream
+            br.close();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return list;
+    }
+
     public void write(ArrayList<String> array, String fileName) {
 
         //Open a file to write to

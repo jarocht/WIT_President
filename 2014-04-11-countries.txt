@@ -1,0 +1,108 @@
+1.01/Australia
+1.01/Canada
+1.0/China
+1.0/France
+1.0/Germany
+1.02/Pakistan
+1.05/Philippines
+1.0/Qatar
+1.06/Russia
+1.04/Cuba
+1.0/India
+1.01/Saudi Arabia
+1.02/Indonesia
+1.1/Iran
+1.02/Iraq
+1.0/Israel
+1.04/Syria
+1.02/Bahrain
+1.01/Japan
+1.01/Kenya
+1.0/Thailand
+1.15/Ukraine
+1.0/Libya
+1.01/Venezuela
+1.03/Egypt
+1.0/Malaysia
+1.0/Mexico
+0.01/Sierra Leone
+0.01/Serbia
+0.0/Hungary
+0.04/Hong Kong
+0.05/Romania
+0.04/Guatemala
+0.03/Puerto Rico
+0.02/Portugal
+0.12/Poland
+0.23/Ghana
+0.2/Peru
+0.01/Paraguay
+0.14/Panama
+0.01/Gabon
+0.27/Oman
+0.54/Norway
+0.31/North Korea
+0.74/Nigeria
+0.0/New Zealand
+0.56/Netherlands
+0.13/Myanmar
+0.03/Morocco
+0.01/Estonia
+0.14/El Salvador
+0.02/Macau
+0.24/Luxembourg
+0.0/Lithuania
+0.25/Ecuador
+0.07/Lebanon
+0.0/Dominican Republic
+0.24/Kuwait
+0.28/Denmark
+0.06/Azerbaijan
+0.9/Jordan
+0.11/Brazil
+0.82/Italy
+0.0/Trinidad and Tobago
+0.37/Ireland
+0.04/Bolivia
+0.0/Turkmenistan
+0.0/Croatia
+0.0/Costa Rica
+0.38/Belgium
+0.0/Uzbekistan
+0.13/Colombia
+0.11/Greece
+0.03/Belarus
+0.04/Chile
+0.18/Yemen
+0.02/Bangladesh
+0.03/Finland
+0.02/Ethiopia
+0.01/Cameroon
+0.36/Argentina
+0.02/Burma
+0.0/Bulgaria
+0.25/Sri Lanka
+0.08/Sweden
+0.03/Switzerland
+0.0/Czech Republic
+0.01/Austria
+0.94/Turkey
+0.01/Kazakhstan
+0.04/Uruguay
+0.03/Algeria
+0.28/Vietnam
+0.02/Angola
+0.01/Slovenia
+0.1/South Africa
+0.98/Spain
+0.14/Sudan
+0.18/Tanzania
+0.21/Tunisia
+0.02/United Kingdom
+0.01/Latvia
+0.01/Slovakia
+0.09/South Korea
+0.16/Taiwan
+0.0/United Arab Emirates
+0.11/Singapore
+0.03/Cyprus

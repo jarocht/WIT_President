@@ -13,8 +13,11 @@ public class Pair implements Comparable<Pair>{
 
     @Override
     public int compareTo(Pair o) {
-        int w1 = (int)this.weight*100;
-        int w2 = (int)o.weight*100;
-        return w1-w2;
+        if (this.weight > o.weight)
+            return 1;
+        else if (this.weight == o.weight)
+            return 0;
+        else
+            return -1;
     }
 }

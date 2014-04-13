@@ -3,23 +3,26 @@
  * Date: 4/8/2014 @ Time: 2:25 PM
  */
 
-import sun.util.calendar.BaseCalendar;
 import twitter4j.*;
+import twitter4j.conf.ConfigurationBuilder;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Date;
 
 public class TwitterQuery {
     Twitter twitter;
+    private ConfigurationBuilder builder;
     ArrayList<String> WantedTerms;
     ArrayList<String> UnwantedTerms;
-    ArrayList<String> OneTimeTerms;
 
-    public TwitterQuery(){
-        twitter = TwitterFactory.getSingleton();
+    public TwitterQuery(String ck, String cs, String at, String ts) throws Exception{
+        builder = new ConfigurationBuilder();
+        builder.setApplicationOnlyAuthEnabled(true);
+        twitter = new TwitterFactory(builder.build()).getInstance();
+        twitter.setOAuthConsumer(ck, cs);
+        System.out.println("Key Type:"+twitter.getOAuth2Token().getTokenType());
         WantedTerms = new ArrayList<String>();
         UnwantedTerms = new ArrayList<String>();
     }
@@ -46,14 +49,6 @@ public class TwitterQuery {
         return (want && unwant);
     }
 
-    public boolean setOneTimeTerms(String[] terms){
-        boolean set = false;
-        this.OneTimeTerms = new ArrayList<String>();
-        for (String s: terms)
-            set = OneTimeTerms.add(s);
-        return set;
-    }
-
     public String getWantedTerms(){
         String result = "";
         for (String s: WantedTerms)
@@ -68,13 +63,6 @@ public class TwitterQuery {
         return result;
     }
 
-    public String getOneTimeTerms(){
-        String result = "";
-        if (OneTimeTerms != null)
-            for (String s: OneTimeTerms)
-                result += " "+s;
-        return result;
-    }
 
     public String getYesterdaysDate(){
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
@@ -83,9 +71,9 @@ public class TwitterQuery {
         return dateFormat.format(c.getTime());
     }
 
-    public int query(String terms){
+    public double query(String terms){
         String searchQuery = getWantedTerms() + getUnwantedTerms() + " "+terms;
-        System.out.println("Terms: "+ searchQuery);
+        //System.out.println("Terms: "+ searchQuery);
 
         Query query = new Query(searchQuery);
         query.setCount(100);
@@ -99,7 +87,7 @@ public class TwitterQuery {
             e.printStackTrace();
         }
 
-        int i = 0;
+        double i = 0;
         for (Status status : result.getTweets()) {
             //System.out.println("@" + status.getUser().getScreenName() + ":" + status.getText());
             i++;

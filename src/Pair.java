@@ -6,11 +6,20 @@ public class Pair implements Comparable<Pair>{
     public String location;
     public double weight;
 
+    /**
+     * Creates and instance of a pair object
+     * @param w the weight of the location provided
+     * @param l the location string
+     */
     public Pair (double w, String l) {
         location = l;
         weight = w;
     }
 
+    /**
+     * @param o other pair to be compared to
+     * @return 1 if this is greater than other, 0 if equal and -1 otherwise
+     */
     @Override
     public int compareTo(Pair o) {
         if (this.weight > o.weight)

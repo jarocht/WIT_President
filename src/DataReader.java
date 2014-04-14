@@ -9,6 +9,11 @@ import java.util.ArrayList;
 
 public class DataReader {
 
+    /**
+     * Reads a file and returns the invidual lines as an Arraylist
+     * @param file relative path and file name of the file to be read
+     * @return the Arraylist of file lines
+     */
     public ArrayList<String> read(String file) {
         ArrayList<String> list = new ArrayList<String>();
 
@@ -34,6 +39,11 @@ public class DataReader {
         return list;
     }
 
+    /**
+     * Reads a twitter4j properties file and exttracts the 4 API keys from the file, remove all extra text
+     * @param file relative path and file name of the file to be read
+     * @return a list of 4 keys in the following order: CK, CS, AT, ATS
+     */
     public ArrayList<String> getConfig(String file){
         ArrayList<String> list = new ArrayList<String>();
         FileInputStream fstream;
@@ -61,6 +71,11 @@ public class DataReader {
         return list;
     }
 
+    /**
+     * Writes a list of Strings to file
+     * @param array Arraylist of strings to write
+     * @param fileName relative path and filename to write
+     */
     public void write(ArrayList<String> array, String fileName) {
 
         //Open a file to write to
@@ -82,6 +97,11 @@ public class DataReader {
         writer.close();
     }
 
+    /**
+     * Reads "Pair" objects from a file and returns them in a list
+     * @param file relative path and file name of the file to be read
+     * @return an arraylist of the pairs
+     */
     public ArrayList<Pair> readPairs(String file) {
         ArrayList<Pair> list = new ArrayList<Pair>();
 
@@ -109,6 +129,11 @@ public class DataReader {
         return list;
     }
 
+    /**
+     * Used to write an arraylist of pairs to file for later analysis
+     * @param array The arraylist of pairs to write, in the order of the arraylist
+     * @param fileName relative path and file name of the file to be write
+     */
     public void writePairs(ArrayList<Pair> array, String fileName) {
 
         //Open a file to write to

@@ -1,6 +1,7 @@
 /**
- * User: Jaroch
- * Date: 4/12/2014 @ Time: 9:14 PM
+ * WIT_President
+ * Authors: Tim Jaroch / Michelle Dowling
+ * This class automatically calls the appropriate methods to search twitter and return a fully formed result to the question, "where is the president?"
  */
 import twitter4j.TwitterException;
 import twitter4j.TwitterResponse;
@@ -19,20 +20,10 @@ public class WIT_President {
     private PriorityQueue<Pair> mHeap;
     private ArrayList<Pair> locations;
 
-    /*
-    public WIT_President() throws Exception{
-        reader = new DataReader();
-        ArrayList<String> tokens = reader.getConfig("configFiles\\twitter4j.properties");
-        ts = new TwitterStreamer(tokens.get(0), tokens.get(1), tokens.get(2), tokens.get(3));
-
-    }
-
-    public void run() throws Exception{
-        ts.run(WantedTerms);
-    }*/
-
-
-
+    /**
+     * Creates a WIT_President Object
+     * @throws Exception
+     */
     public WIT_President() throws Exception{
         reader = new DataReader();
         ArrayList<String> tokens = reader.getConfig("configFiles\\twitter4j.properties");
@@ -40,6 +31,10 @@ public class WIT_President {
         tq.addTerms(WantedTerms, UnwantedTerms);
     }
 
+    /**
+     * Runs the WIT_President program, prints the result to the terminal
+     * @throws Exception
+     */
     public void run() throws Exception{
         DataReader reader = new DataReader();
 

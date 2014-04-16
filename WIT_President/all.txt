@@ -1,0 +1,158 @@
+Alabama
+Alaska
+Arizona
+Arkansas
+California
+Colorado
+Connecticut
+Delaware
+Florida
+Georgia
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Maryland
+Massachusetts
+Michigan
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Hampshire
+New Jersey
+New Mexico
+New York
+North Carolina
+North Dakota
+Ohio
+Oklahoma
+Oregon
+Pennsylvania
+Rhode Island
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming
+Algeria
+Angola
+Argentina
+Australia
+Austria
+Azerbaijan
+Bahrain
+Bangladesh
+Belarus
+Belgium
+Bolivia
+Brazil
+Bulgaria
+Burma
+Cameroon
+Canada
+Chile
+China
+Colombia
+Costa Rica
+Croatia
+Cuba
+Cyprus
+Czech Republic
+Denmark
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Estonia
+Ethiopia
+Finland
+France
+Gabon
+Germany
+Ghana
+Greece
+Guatemala
+Hong Kong
+Hungary
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Israel
+Italy
+Japan
+Jordan
+Kazakhstan
+Kenya
+Kuwait
+Latvia
+Lebanon
+Libya
+Lithuania
+Luxembourg
+Macau
+Malaysia
+Mexico
+Morocco
+Myanmar
+Netherlands
+New Zealand
+Nigeria
+North Korea
+Norway
+Oman
+Pakistan
+Panama
+Paraguay
+Peru
+Philippines
+Poland
+Portugal
+Puerto Rico
+Qatar
+Romania
+Russia
+Saudi Arabia
+Serbia
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+South Africa
+South Korea
+Spain
+Sri Lanka
+Sudan
+Sweden
+Switzerland
+Syria
+Taiwan
+Tanzania
+Thailand
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Ukraine
+United Arab Emirates
+United Kingdom
+Uruguay
+Uzbekistan
+Venezuela
+Vietnam
+Yemen

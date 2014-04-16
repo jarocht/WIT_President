@@ -26,7 +26,7 @@ public class WIT_President {
      */
     public WIT_President() throws Exception{
         reader = new DataReader();
-        ArrayList<String> tokens = reader.getConfig("configFiles\\twitter4j.properties");
+        ArrayList<String> tokens = reader.getConfig("twitter4j.config");
         tq = new TwitterQuery(tokens.get(0), tokens.get(1));
         tq.addTerms(WantedTerms, UnwantedTerms);
     }
@@ -45,11 +45,11 @@ public class WIT_President {
         Pair pair;
 
         try {
-            for (String s : reader.read("configFiles\\all.txt")) {
+            for (String s : reader.read("all.txt")) {
                 weight = tq.query(s, tq.getOneWeekAgoDate()) / 100;
                 pair = new Pair(weight, s);
                 mHeap.add(pair);
-                System.out.println("weight: " + weight + " Location: " + pair.location);
+                //System.out.println("weight: " + weight + " Location: " + pair.location);
             }
         } catch (TwitterException e) {
             if (e.exceededRateLimitation())
@@ -62,8 +62,10 @@ public class WIT_President {
             //System.out.println("weight: " + mHeap.peek().weight + " Location: " + mHeap.peek().location);
             locations.add(mHeap.poll());
         }
-        if (!locations.isEmpty())
-            reader.writePairs(locations, tq.getYesterdaysDate()+"-states.txt");
+        if (!locations.isEmpty()) {
+            reader.writePairs(locations, tq.getYesterdaysDate() + "-output.txt");
+            System.out.println("Output file created!");
+        }
         System.out.println(tq.twitter.getRateLimitStatus("search"));
     }
 

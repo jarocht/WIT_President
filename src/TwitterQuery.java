@@ -82,14 +82,14 @@ public class TwitterQuery {
     public String buildQueryString(String location){
         String queryString = "";
         for (String s: WantedTerms){
-            queryString += "\""+s+" at "+location+"\" OR \""+s+" in "+location+"\" OR \""+s+" from "+location+"\"";
+            queryString += "\""+s+" at "+location+"\" OR \""+s+" in "+location+"\" OR \""+s+" is at "+location+"\" OR \""+s+" is in "+location+"\"";
             //queryString += s+" in "+location;
         }
 
         for (String s: UnwantedTerms){
             queryString += " -"+s;
         }
-        System.out.println(queryString);
+        //System.out.println(queryString);
         return queryString;
     }
 
@@ -122,7 +122,6 @@ public class TwitterQuery {
         QueryResult result;
         for (int i = 0; i < 9; i++) {
             result = twitter.search(query);
-            System.out.print(0);
             long lowestStatusId = Long.MAX_VALUE;
             for (Status status : result.getTweets()) {
                 if (status.getText() != null) {
@@ -150,6 +149,13 @@ public class TwitterQuery {
             weight += 1.0;
         if (status.getRetweetCount() >= 1)
             weight += (status.getRetweetCount()/100.0);
+
+        int daysOld = (int)(Calendar.getInstance().getTime().getTime() - status.getCreatedAt().getTime()) / 86400000;
+        //System.out.println("Days old:"+daysOld);
+        if (daysOld > 0)
+            weight += (1/daysOld);
+        else
+            weight += 2;
 
         return weight;
     }
